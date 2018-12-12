@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ct_analysis" />
+        <module name="ct_consumer" />
+        <module name="dataProducer" />
+        <module name="MyTest" />
+        <module name="myTest" />
+        <module name="webDisplay" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ct_analysis" target="1.5" />
+      <module name="ct_consumer" target="1.5" />
+      <module name="dataProducer" target="1.5" />
+      <module name="myTest" target="1.5" />
+      <module name="webDisplay" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

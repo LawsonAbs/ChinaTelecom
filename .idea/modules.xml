@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ChinaTelecom.iml" filepath="$PROJECT_DIR$/ChinaTelecom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ct_analysis/ct_analysis.iml" filepath="$PROJECT_DIR$/ct_analysis/ct_analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ct_consumer/ct_consumer.iml" filepath="$PROJECT_DIR$/ct_consumer/ct_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataProducer/dataProducer.iml" filepath="$PROJECT_DIR$/dataProducer/dataProducer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myTest/myTest.iml" filepath="$PROJECT_DIR$/myTest/myTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webDisplay/webDisplay.iml" filepath="$PROJECT_DIR$/webDisplay/webDisplay.iml" />
+    </modules>
+  </component>
+</project>
