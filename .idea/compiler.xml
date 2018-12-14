@@ -15,11 +15,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ct_analysis" target="1.5" />
-      <module name="ct_consumer" target="1.5" />
-      <module name="dataProducer" target="1.5" />
-      <module name="myTest" target="1.5" />
-      <module name="webDisplay" target="1.7" />
+      <module name="ct_analysis" target="1.8" />
+      <module name="ct_consumer" target="1.8" />
+      <module name="dataProducer" target="1.8" />
+      <module name="myTest" target="1.8" />
+      <module name="webDisplay" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
