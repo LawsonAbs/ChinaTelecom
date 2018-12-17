@@ -1,4 +1,4 @@
-package com.enmonster.other;
+package com.enmonster.data;
 
 import java.io.*;
 import java.text.ParseException;
@@ -21,7 +21,7 @@ public class DataProducer {
     //teleNumber ： store telephone number;
     //numberToName：telephone number --> name
     //init the metadata
-    public static void initMetadata(ArrayList<String> teleNumber,HashMap<String,String> numberToName){
+    public void initMetadata(ArrayList<String> teleNumber,HashMap<String,String> numberToName){
         teleNumber.add("17802596779");
         teleNumber.add("18907263863");
         teleNumber.add("19188980695");
@@ -42,8 +42,6 @@ public class DataProducer {
         teleNumber.add("17340248510");
         teleNumber.add("19961057493");
         teleNumber.add("19724655139");
-
-
         numberToName.put("17802596779","李雁");
         numberToName.put("18907263863","卫艺");
         numberToName.put("19188980695","仰莉");
@@ -67,7 +65,7 @@ public class DataProducer {
     }
 
     //produce access log
-    public static String produce(ArrayList<String> teleNum,HashMap<String,String> numberToName,String startTime,String endTime){
+    public String produce(ArrayList<String> teleNum,HashMap<String,String> numberToName,String startTime,String endTime){
         initMetadata(teleNum,numberToName);
         int callerIndex = (int)(Math.random()*teleNum.size() );//get a random number in order to get a random telephone number
         String callerName = teleNum.get(callerIndex);//get the caller Name
@@ -131,23 +129,4 @@ public class DataProducer {
         }
     }
 
-
-    public static void main(String[] args) {
-        if(args[0]==null || args[0]==""){
-            return;
-        }
-        DataProducer dataProducer = new DataProducer();
-        dataProducer.initMetadata();
-        for(int i = 0;i<1000000;i++){
-            String result = dataProducer.produce(teleNumber,"2017-01-01","2017-12-12");
-            try {
-                Thread.sleep(1500);//sleep 1500ms
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            System.out.println(result);
-            //the result of output is in args[0]
-            dataProducer.writeLog(args[0],result+"\n");
-        }
-    }
 }

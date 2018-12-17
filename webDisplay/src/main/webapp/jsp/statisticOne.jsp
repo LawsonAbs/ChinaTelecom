@@ -32,21 +32,21 @@
 
     <div id="left" style="background: #99B898; width:20%; height:100%; position:relative;top:0;left: 0; display:table-cell;">
         <p style="text-align: center; font-weight: 400;font-size: 30px">The Statistics of Call</p>
-        <div id="userInfo" style=" left: 10px">
+        <div id="userInfo" style=" left: 10px;top: 20px">
+
             <jsp:useBean id="user" scope="session" class="com.bean.User"></jsp:useBean>
-            <ul style="text-align: center; font-size: 20px; ">
+            <ul style="text-align: left; font-size: 20px; ">
                 <%-- 这个userName是需要从后台计算之后传递过来的 --%>
                     <li>userName：<jsp:getProperty name="user" property="userName"/></li></br>
                 <%-- 这个值是从前一个页面传递过来的 --%>
                     <li>telephone：<%=teleNumber%></li></br>
                     <li>startMonth：<%=startMonth%></li></br>
-                    <li>endMonth：<%=endMonth%>></li></br>
+                    <li>endMonth：<%=endMonth%></li></br>
                     <li>province/city：</li></br>
             </ul>
         </div>
         <div id ="footer" style="width: 100%;height: 20%;position: absolute;bottom: 10px">
-            <ul style="">
-                <li><strong>email:</strong>shenliu@ahnu.edu.cn</li>
+            <ul >
                 <li><strong>csdn:</strong><a href="https://blog.csdn.net/liu16659" target="_blank">https://blog.csdn.net/liu16659</a></li>
                 <li><strong>github:</strong><a href="https://github.com/LittleLawson" target="_blank">https://github.com/LittleLawson</a></li>
             </ul>

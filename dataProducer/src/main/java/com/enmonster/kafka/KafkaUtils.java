@@ -1,6 +1,6 @@
 package com.enmonster.kafka;
 
-import com.enmonster.other.DataProducer;
+import com.enmonster.data.DataProducer;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;
@@ -10,17 +10,18 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 /*
-1.implement Kafka client,in order to write data in Kafka Broker
+1.implement Kafka client,in order to write data into Kafka Broker
  */
 public class KafkaUtils {
     private static ArrayList<String> teleNumber = new ArrayList<String >();//store telephone number;
     private static HashMap<String,String> numberAndName = new HashMap<String, String>();//telephone number --> name
+    private DataProducer dataProducer = new DataProducer();
 
-    //specific function to write data in kafka
+    //specific function to write data into kafka
     public static void writeDataIntoKafka() throws InterruptedException {
         //step 1.get a new configuration
         Properties props = new Properties();
-        props.put("bootstrap.servers", "192.168.211.3:9092");
+        props.put("bootstrap.servers", "192.168.211.4:9092");
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 
@@ -52,7 +53,7 @@ public class KafkaUtils {
     /*
     1.write call record into kafka through extends Kafka.Client.Producer
      */
-    public static void writeCallRecordIntoKafka() throws InterruptedException {
+    public void writeCallRecordIntoKafka() throws InterruptedException {
         Properties props = new Properties();
         props.put("bootstrap.servers", "192.168.211.3:9092");
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
@@ -60,12 +61,11 @@ public class KafkaUtils {
 
         //get an instance of kafkaProducer by props
         Producer<String, String> producer = new KafkaProducer<String, String>(props);
-
         //specific topic been written
         String topic = "dblab";
 
         for (int i = 0; i < 1000; i++) {
-            String value = DataProducer.produce(
+            String value = dataProducer.produce(
                     teleNumber,numberAndName,
                     "2017-01-01","2017-12-12");
             Thread.sleep(1500);
@@ -86,10 +86,10 @@ public class KafkaUtils {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }*/
-        try {
-            writeCallRecordIntoKafka();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            writeCallRecordIntoKafka();
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
     }
 }
