@@ -8,14 +8,20 @@ import java.util.*;
 /*
 1.this class is in order to get the data (analog the data source)
 2.the right format is following:
-    number1 number2 daytime specificTime duration flag
+    telephone1 telephone2 date specificTime duration flag
+01.telephone1 and telephone2: the telephone number
+02.date : the call date
+03.specificTime : the call specific time
+04.duration : the call duration
+05.flag: the flag of first telephone is caller or not
+
 3.the teleNumber is static,so how to avoid using  'static' identifier?
  */
 public class DataProducer {
     //teleNumber ： store telephone number;
-    //numberAndName：telephone number --> name
+    //numberToName：telephone number --> name
     //init the metadata
-    public static void initMetadata(ArrayList<String> teleNumber,HashMap<String,String> numberAndName){
+    public static void initMetadata(ArrayList<String> teleNumber,HashMap<String,String> numberToName){
         teleNumber.add("17802596779");
         teleNumber.add("18907263863");
         teleNumber.add("19188980695");
@@ -38,34 +44,34 @@ public class DataProducer {
         teleNumber.add("19724655139");
 
 
-        numberAndName.put("17802596779","李雁");
-        numberAndName.put("18907263863","卫艺");
-        numberAndName.put("19188980695","仰莉");
-        numberAndName.put("13320266126","陶欣悦");
-        numberAndName.put("19048828124","施梅梅");
-        numberAndName.put("13653454072","金虹霖");
-        numberAndName.put("13135279938","魏明艳");
-        numberAndName.put("18281704261","华贞");
-        numberAndName.put("17035534749","华啟倩");
-        numberAndName.put("19834669675","仲采绿");
-        numberAndName.put("19417467461","卫丹");
-        numberAndName.put("19772366326","戚丽红");
-        numberAndName.put("18283449398","何翠柔");
-        numberAndName.put("16005439091","钱溶艳");
-        numberAndName.put("14924565399","钱琳");
-        numberAndName.put("14218140347","缪静欣");
-        numberAndName.put("17782151215","焦秋菊");
-        numberAndName.put("17340248510","吕访琴");
-        numberAndName.put("19961057493","沈丹");
-        numberAndName.put("19724655139","褚美丽");
+        numberToName.put("17802596779","李雁");
+        numberToName.put("18907263863","卫艺");
+        numberToName.put("19188980695","仰莉");
+        numberToName.put("13320266126","陶欣悦");
+        numberToName.put("19048828124","施梅梅");
+        numberToName.put("13653454072","金虹霖");
+        numberToName.put("13135279938","魏明艳");
+        numberToName.put("18281704261","华贞");
+        numberToName.put("17035534749","华啟倩");
+        numberToName.put("19834669675","仲采绿");
+        numberToName.put("19417467461","卫丹");
+        numberToName.put("19772366326","戚丽红");
+        numberToName.put("18283449398","何翠柔");
+        numberToName.put("16005439091","钱溶艳");
+        numberToName.put("14924565399","钱琳");
+        numberToName.put("14218140347","缪静欣");
+        numberToName.put("17782151215","焦秋菊");
+        numberToName.put("17340248510","吕访琴");
+        numberToName.put("19961057493","沈丹");
+        numberToName.put("19724655139","褚美丽");
     }
 
     //produce access log
-    public static String produce(ArrayList<String> teleNum,HashMap<String,String> numberAndName,String startTime,String endTime){
-        initMetadata(teleNum,numberAndName);
-        int callerIndex = (int)(Math.random()*teleNum.size() );//get a random number in order to get a random number
+    public static String produce(ArrayList<String> teleNum,HashMap<String,String> numberToName,String startTime,String endTime){
+        initMetadata(teleNum,numberToName);
+        int callerIndex = (int)(Math.random()*teleNum.size() );//get a random number in order to get a random telephone number
         String callerName = teleNum.get(callerIndex);//get the caller Name
-        int calleeIndex;//
+        int calleeIndex;
         do{
             calleeIndex = (int)(Math.random()*teleNum.size());//get a random number
         }
@@ -85,7 +91,7 @@ public class DataProducer {
             e.printStackTrace();
         }
 
-        //get a random distance to form a date.
+        //get a random distance from start_date to form a date of call.
         //the startDate and endDate are parameters that you ensure the all calls range.
         long randomTs = startDate.getTime() + (long)((endDate.getTime() - startDate.getTime()) * Math.random());
         Date resultDate = new Date(randomTs);
@@ -115,7 +121,7 @@ public class DataProducer {
             //you should use append not override,so you should use FileOutputStream(filePath,true),the true denote append
             osw = new OutputStreamWriter(new FileOutputStream(filePath,true), "utf-8");
             osw.write(result);
-            osw.flush();//must
+            osw.flush();
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         } catch (FileNotFoundException e) {
@@ -125,7 +131,7 @@ public class DataProducer {
         }
     }
 
-    /*
+
     public static void main(String[] args) {
         if(args[0]==null || args[0]==""){
             return;
@@ -144,5 +150,4 @@ public class DataProducer {
             dataProducer.writeLog(args[0],result+"\n");
         }
     }
-     */
 }
