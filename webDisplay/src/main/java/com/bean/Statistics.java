@@ -1,7 +1,5 @@
 package com.bean;
 
-import java.util.Comparator;
-
 /**
  * 1.查询结果的字段放到这个类中
  * 2.这个类对应实际的MySQL中的一张表

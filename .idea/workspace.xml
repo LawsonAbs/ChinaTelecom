@@ -7,14 +7,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46cd39f5-e146-4ffc-b04c-b52312230f91" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webDisplay/src/main/webapp/resources/image/backgroud.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/bean/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/UserInfoDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticOne.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticTwo.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/index.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/bean/Bar.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/bean/Bar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/bean/Intimacy.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/bean/Intimacy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/bean/Statistics.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/bean/Statistics.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/dao/BarDao.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/dao/BarDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/dao/IntimacyDao.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/dao/IntimacyDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/dao/StatisticsDao.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/dao/StatisticsDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/servlet/BarService.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/servlet/BarService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/servlet/IntimacyService.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/servlet/IntimacyService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/servlet/StatisticsService.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/servlet/StatisticsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/utils/MysqlUtils.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/utils/MysqlUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/bean/Bar.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/bean/Bar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/bean/Intimacy.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/bean/Intimacy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/bean/Statistics.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/bean/Statistics.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/dao/BarDao.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/dao/BarDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/dao/IntimacyDao.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/dao/IntimacyDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/dao/StatisticsDao.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/dao/StatisticsDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/servlet/BarService.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/servlet/BarService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/servlet/IntimacyService.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/servlet/IntimacyService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/servlet/StatisticsService.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/servlet/StatisticsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/utils/MysqlUtils.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/utils/MysqlUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_analysis/ct_analysis.iml" afterPath="$PROJECT_DIR$/ct_analysis/ct_analysis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_consumer/ct_consumer.iml" afterPath="$PROJECT_DIR$/ct_consumer/ct_consumer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataProducer/dataProducer.iml" afterPath="$PROJECT_DIR$/dataProducer/dataProducer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myTest/myTest.iml" afterPath="$PROJECT_DIR$/myTest/myTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/webDisplay.iml" afterPath="$PROJECT_DIR$/webDisplay/webDisplay.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/bean/Intimacy.java" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/bean/Intimacy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/bean/Statistics.java" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/bean/Statistics.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/IntimacyDao.java" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/IntimacyDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/IntimacyService.java" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/IntimacyService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/StatisticsService.java" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/StatisticsService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/utils/MysqlUtils.java" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/utils/MysqlUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/webDisplay/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/web.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/webDisplay/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/callStatistic.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/dataProducer/target/" />
@@ -42,101 +73,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/index.jsp">
+      <file leaf-file-name="callStatistic.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/callStatistic.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="220">
+              <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webDisplay/pom.xml">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+            <state relative-caret-position="401">
+              <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HBaseDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ct_consumer/src/main/java/hbase/HBaseDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="56" column="64" lean-forward="false" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HBaseConsumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ct_consumer/src/main/java/kafka/HBaseConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myTest/src/main/java/Test.java">
+      <file leaf-file-name="statisticOne.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticOne.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+              <caret line="40" column="59" lean-forward="true" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helloworld.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myTest/src/main/java/helloworld.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="56" column="6" lean-forward="false" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MysqlUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/utils/MysqlUtils.java">
+      <file leaf-file-name="UserInfoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="555">
+              <caret line="38" column="45" lean-forward="false" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BarService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/BarService.java">
+      <file leaf-file-name="ServletRequest.java" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/ServletRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BarDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/dao/BarDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HBaseUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ct_consumer/src/main/java/utils/HBaseUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="96" column="46" lean-forward="false" selection-start-line="96" selection-start-column="46" selection-end-line="96" selection-end-column="46" />
+            <state relative-caret-position="904">
+              <caret line="456" column="29" lean-forward="false" selection-start-line="456" selection-start-column="29" selection-end-line="456" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -147,6 +153,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -168,21 +175,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MyTest/pom.xml" />
-        <option value="$PROJECT_DIR$/ct_consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/ct_consumer/src/main/resources/hbase-site.xml" />
-        <option value="$PROJECT_DIR$/ct_consumer/src/main/resources/core-site.xml" />
-        <option value="$PROJECT_DIR$/ct_consumer/src/main/resources/hdfs-site.xml" />
-        <option value="$PROJECT_DIR$/dataProducer/src/main/java/com/enmonster/LittleLawson/DataProducer.java" />
-        <option value="$PROJECT_DIR$/MyTest/src/main/java/Test.java" />
-        <option value="$PROJECT_DIR$/dataProducer/src/main/java/com/enmonster/DataProducer.java" />
-        <option value="$PROJECT_DIR$/dataProducer/src/main/java/com/enmonster/Other/DataProducer.java" />
-        <option value="$PROJECT_DIR$/ct_consumer/src/main/java/kafka/HBaseProducer.java" />
-        <option value="$PROJECT_DIR$/dataProducer/pom.xml" />
-        <option value="$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0-sources.jar!/org/apache/kafka/clients/producer/ProducerRecord.java" />
         <option value="$PROJECT_DIR$/ct_consumer/src/main/java/kafka/Consumer.java" />
         <option value="$PROJECT_DIR$/dataProducer/src/main/resources/kafka.properties" />
-        <option value="$PROJECT_DIR$/dataProducer/src/main/java/com/enmonster/other/DataProducer.java" />
         <option value="$PROJECT_DIR$/dataProducer/src/main/java/com/enmonster/kafka/KafkaUtils.java" />
         <option value="$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0-sources.jar!/org/apache/kafka/clients/consumer/KafkaConsumer.java" />
         <option value="$PROJECT_DIR$/ct_consumer/src/main/resources/hbase_consumer.properties" />
@@ -208,13 +202,30 @@
         <option value="$PROJECT_DIR$/ct_analysis/src/main/java/outputformat/MysqlOutputFormat.java" />
         <option value="$PROJECT_DIR$/webDisplay/pom.xml" />
         <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/BarDao.java" />
-        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/bean/Intimacy.java" />
-        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/IntimacyService.java" />
-        <option value="$PROJECT_DIR$/webDisplay/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/StatisticsService.java" />
-        <option value="$PROJECT_DIR$/webDisplay/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/myTest/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/myTest/src/main/java/helloworld.java" />
+        <option value="$PROJECT_DIR$/dataProducer/src/main/java/com/enmonster/other/DataProducer.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/webapp/helloWorld.jsp" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/IntimacyDao.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/bean/Intimacy.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/utils/MysqlUtils.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/echartDemo2.jsp" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticTwo.jsp" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/IntimacyService.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/entity/User.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/bean/Statistics.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/bean/User.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserService.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/StatisticsService.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/UserInfoDao.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/callStatistic.jsp" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticOne.jsp" />
       </list>
     </option>
   </component>
@@ -252,11 +263,14 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="55" />
-    <option name="width" value="943" />
-    <option name="height" value="1087" />
+    <option name="x" value="58" />
+    <option name="y" value="-8" />
+    <option name="width" value="1870" />
+    <option name="height" value="1096" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -272,10 +286,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,37 +300,82 @@
             <path>
               <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
-              <item name="ct_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="webDisplay" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
-              <item name="ct_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="webDisplay" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
-              <item name="ct_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
-              <item name="ct_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="webDisplay" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
-              <item name="ct_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="webDisplay" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
+              <item name="webDisplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
+              <item name="webDisplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
+              <item name="webDisplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
+              <item name="webDisplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
+              <item name="webDisplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
+              <item name="webDisplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,17 +386,24 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AllDemo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34252873" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="SearchEverywhereHistoryKey" value="login&#9;FILE&#9;file://E:/intellij_Project/ChinaTelecom/webDisplay/src/main/webapp/jsp/login.jsp" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\intellij_Project\ChinaTelecom\webDisplay\src\main\webapp\jsp" />
+      <recent name="E:\intellij_Project\ChinaTelecom\webDisplay\src\main\webapp\resources" />
       <recent name="F:\ChinaTelecom\ct_consumer\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.entity" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\intellij_Project\ChinaTelecom\webDisplay\src\main\webapp\jsp" />
       <recent name="F:\ChinaTelecom\ct_analysis" />
       <recent name="F:\ChinaTelecom\ct_consumer\src\main\java" />
     </key>
@@ -534,10 +600,9 @@
       <envs />
     </configuration>
     <configuration name="webDisplay" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/" />
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="webDisplay:war exploded">
           <settings>
@@ -676,18 +741,20 @@
       <workItem from="1531736250011" duration="625000" />
       <workItem from="1532521010425" duration="2017000" />
       <workItem from="1544609848657" duration="630000" />
-      <workItem from="1544788986466" duration="377000" />
+      <workItem from="1544788986466" duration="20360000" />
+      <workItem from="1544949881564" duration="10349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104079000" />
+    <option name="totallyTimeSpent" value="134411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="-8" width="1870" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30344108" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37539104" sideWeight="0.50220996" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17750826" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -696,17 +763,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10033076" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4653768" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40771636" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3238289" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3941606" sideWeight="0.49779007" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37576374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16685084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19392265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -715,7 +783,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12568909" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3238289" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -761,7 +828,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -770,55 +857,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4-sources.jar!/org/apache/hadoop/mapreduce/TaskInputOutputContext.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-common/1.4.0/hbase-common-1.4.0-sources.jar!/org/apache/hadoop/hbase/io/ImmutableBytesWritable.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-server/1.4.0/hbase-server-1.4.0-sources.jar!/org/apache/hadoop/hbase/mapreduce/TableMapper.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.4.0/hbase-client-1.4.0-sources.jar!/org/apache/hadoop/hbase/client/Result.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4-sources.jar!/org/apache/hadoop/mapreduce/Reducer.java" />
-    <entry file="file://$PROJECT_DIR$/ct_web/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ct_analysis/src/main/java/kv/base/BaseValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ct_analysis/src/main/java/kv/key/ComDimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ct_analysis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ct_analysis/src/main/java/kv/base/BaseDimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.4/hadoop-common-2.6.4-sources.jar!/org/apache/hadoop/io/Writable.java" />
-    <entry file="file://$PROJECT_DIR$/ct_analysis/src/main/java/kv/key/DateDimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ct_analysis/src/main/java/kv/key/ContactDimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ct_analysis/src/main/java/kv/value/CountDurationValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -890,20 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ct_analysis/src/main/java/converter/DimensionConverterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/dao/StatisticsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/resources/js/echarts.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -911,68 +935,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/IntimacyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" column="67" lean-forward="false" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/bean/Intimacy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/dao/IntimacyDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="56" column="3" lean-forward="false" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/bean/Bar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/bean/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ct_consumer/src/main/java/kafka/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/StatisticsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="54" column="83" lean-forward="false" selection-start-line="54" selection-start-column="83" selection-end-line="54" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,7 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="593">
           <caret line="56" column="64" lean-forward="false" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,15 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myTest/src/main/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,15 +968,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/utils/MysqlUtils.java">
+    <entry file="file://$PROJECT_DIR$/ct_consumer/src/main/java/utils/HBaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="505">
+          <caret line="118" column="36" lean-forward="true" selection-start-line="118" selection-start-column="36" selection-end-line="118" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myTest/src/main/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1040,11 +1001,218 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ct_consumer/src/main/java/utils/HBaseUtil.java">
+    <entry file="file://$PROJECT_DIR$/ct_analysis/src/main/java/converter/DimensionConverterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="96" column="46" lean-forward="false" selection-start-line="96" selection-start-column="46" selection-end-line="96" selection-end-column="46" />
+        <state relative-caret-position="-1452">
+          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ct_analysis/src/main/java/kv/base/BaseDimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/resources/js/DatePicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <marker date="1530933093447" expanded="true" signature="12340:12363" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="13080:13090" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="13114:13121" ph="«" />
+            <marker date="1530933093447" expanded="true" signature="13212:13222" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="13247:13255" ph="‹" />
+            <marker date="1530933093447" expanded="true" signature="13290:13300" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="13506:13516" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="13700:13710" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="13925:13935" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="13956:13964" ph="›" />
+            <marker date="1530933093447" expanded="true" signature="14026:14036" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="14056:14063" ph="»" />
+            <marker date="1530933093447" expanded="true" signature="15761:15771" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="15883:15893" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="16002:16012" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="16211:16221" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="16241:16248" ph="»" />
+            <marker date="1530933093447" expanded="true" signature="17186:17196" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="17308:17318" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="17444:17454" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="20103:20118" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="20936:20951" ph="..." />
+            <marker date="1530933093447" expanded="true" signature="24593:24693" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataProducer/src/main/java/com/enmonster/other/DataProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-418">
+          <caret line="59" column="47" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="59" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/helloWorld.jsp" />
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/utils/MysqlUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticTwo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/bean/Bar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/bean/Intimacy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/bean/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/dao/IntimacyDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="22" column="75" lean-forward="false" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/dao/UserInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/StatisticsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="method#doGet#0;class#StatisticsService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/IntimacyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/dao/StatisticsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="99" lean-forward="false" selection-start-line="13" selection-start-column="99" selection-end-line="13" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="56" column="6" lean-forward="false" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/ServletRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="904">
+          <caret line="456" column="29" lean-forward="false" selection-start-line="456" selection-start-column="29" selection-end-line="456" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpServletRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="304" column="18" lean-forward="false" selection-start-line="304" selection-start-column="18" selection-end-line="304" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="38" column="45" lean-forward="false" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/callStatistic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticOne.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="40" column="59" lean-forward="true" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

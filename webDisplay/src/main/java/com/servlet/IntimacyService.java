@@ -18,6 +18,13 @@ public class IntimacyService extends HttpServlet{
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
+        if (req != null) {
+            String teleNumber = req.getParameter("phoneNumber");
+            String startMonth = req.getParameter("startMonth");
+            String endMonth = req.getParameter("endMonth");
+            System.out.println(teleNumber + startMonth + endMonth);
+        }
+
         resp.setContentType("text/html;charset=utf8");
         IntimacyDao intimacyDao = new IntimacyDao();
         List<Intimacy> intimacyList = intimacyDao.query();

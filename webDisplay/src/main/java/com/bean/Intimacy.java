@@ -2,18 +2,18 @@ package com.bean;
 
 public class Intimacy implements Comparable<Intimacy> {
     /**
-     * 1.the most intimacy friend
+     * 1.the most intimacy callee
      * 2.the degree of intimacy
      */
-    private String intimcayFriend;
+    private String callee;
     private int totalTime;
 
-    public String getIntimcayFriend() {
-        return intimcayFriend;
+    public String getCallee() {
+        return callee;
     }
 
-    public void setIntimcayFriend(String intimcayFriend) {
-        this.intimcayFriend = intimcayFriend;
+    public void setCallee(String callee) {
+        this.callee = callee;
     }
 
     public int getTotalTime() {
@@ -27,10 +27,5 @@ public class Intimacy implements Comparable<Intimacy> {
     @Override
     public int compareTo(Intimacy inti) {
         return inti.totalTime - this.totalTime;
-    }
-
-    @Override
-    public String toString() {
-        return this.intimcayFriend+" "+this.totalTime;
     }
 }

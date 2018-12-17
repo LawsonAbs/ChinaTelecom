@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
   <welcome-file-list>
-    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>/jsp/callStatistic.jsp</welcome-file>
   </welcome-file-list>
 
-  <!-- 注册servlet -->
+  <!-- 测试用servlet bar -->
   <servlet>
     <servlet-name>barService</servlet-name>
     <servlet-class>com.servlet.BarService</servlet-class>
@@ -18,7 +18,7 @@
     <url-pattern>/bar.display</url-pattern>
   </servlet-mapping>
 
-  <!-- 注册servlet -->
+  <!-- 用户通话时长统计 -->
   <servlet>
     <servlet-name>statisticsService</servlet-name>
     <servlet-class>com.servlet.StatisticsService</servlet-class>
@@ -29,12 +29,7 @@
     <url-pattern>/statistics.display</url-pattern>
   </servlet-mapping>
 
-
-  <servlet-mapping>
-    <servlet-name>statisticsService</servlet-name>
-    <url-pattern>/statistics.getPhoneNumber</url-pattern>
-  </servlet-mapping>
-
+    <!-- 用户亲密度分析 -->
   <servlet>
     <servlet-name>intimacyService</servlet-name>
     <servlet-class>com.servlet.IntimacyService</servlet-class>
@@ -44,6 +39,20 @@
     <servlet-name>intimacyService</servlet-name>
     <url-pattern>/intimacy.display</url-pattern>
   </servlet-mapping>
+
+
+    <!-- 获取用户信息 -->
+    <servlet>
+        <servlet-name>userInfoService</servlet-name>
+        <servlet-class>com.servlet.UserInfoService</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>userInfoService</servlet-name>
+        <!-- 下面这个名字可以和上面的<servlet-name>相同 -->
+        <url-pattern>/servlet/userInfoService</url-pattern>
+    </servlet-mapping>
+
 </web-app>
 
 
