@@ -14,4 +14,4 @@ If you have any problems about this project, you could add a commet or put an is
 
 4. profile
 <li><strong>email:</strong> shenliu#ahnu.edu.cn &nbsp;&nbsp; replace # with @ </li>
-<li><strong>blog:</strong><a href="https://blog.csdn.net/liu16659" target="_blank">https://blog.csdn.net/liu16659</a></li>
+<li><strong>blog &nbsp;:&nbsp;</strong><a href="https://blog.csdn.net/liu16659" target="_blank">https://blog.csdn.net/liu16659</a></li>
