@@ -49,13 +49,7 @@ public class MonthStatService extends HttpServlet{
         //用于计算每个月的通话记录
         MonthStatDao staDao = new MonthStatDao();
 
-        //用于获取用户的信息
-        UserInfoDao userInfoDao = new UserInfoDao();
-        String name = userInfoDao.getNameByTeleNumber(phoneNumber);
-        User user = new User();
-        user.setUserName(name);
-        req.getSession().setAttribute("user",user);
-        System.out.println("userName: "+user.getUserName());
+//        //用于获取用户的信息
 
         List<MonthStat> statisticList =  staDao.query(phoneNumber,startMonth,endMonth);
         resp.setContentType("text/html;charset=utf-8");

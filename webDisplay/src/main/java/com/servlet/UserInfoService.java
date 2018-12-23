@@ -23,18 +23,19 @@ public class UserInfoService extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("处理 post 请求...");
         String phoneNumber = request.getParameter("phoneNumber");
-
+        System.out.println("UserInfoService ...phoneNumber: "+phoneNumber);
         request.setCharacterEncoding("utf-8");
         UserInfoDao userInfoDao = new UserInfoDao();
         String name = userInfoDao.getNameByTeleNumber(phoneNumber);
 
         User user = new User();
         user.setUserName(name);
+        request.getSession().setAttribute("user",user);
         response.setContentType("text/html;charset=utf-8");
 
         //跳转到注册成功页面-> statisticOne.jsp，同时传递这request 和 response 对象
         System.out.println(request.getPathInfo()+request.getPathTranslated());
-        //request.getRequestDispatcher("../jsp/statisticOne.jsp").forward(request,response);
+        request.getRequestDispatcher("../jsp/statisticOne.jsp").forward(request,response);
         //request.getRequestDispatcher("../monthStat.display").forward(request,response); => 将转发递交给/monthStat.display来处理
         //服务器跳转，也称作请求转发。
     }
