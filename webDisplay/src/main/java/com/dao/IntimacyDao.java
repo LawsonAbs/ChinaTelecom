@@ -10,18 +10,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class IntimacyDao {
-    public List<Intimacy> query(){
-        String sql = "select callee ,totalTime from mydatabase.intimacy order by totalTime desc limit 10";
+    public List<Intimacy> query(String phoneNumber){
 
-        Intimacy inti =null;
+        String sql = "select call2,callDuration" +
+                " from mydatabase.intimacy" +
+                " where call1 = "+ phoneNumber +
+                " order by callDuration " +
+                " desc limit 10";
+
+        System.out.println("intimacy sql: "+sql);
+        Intimacy inti = null;
         List<Intimacy> intimacyList = new ArrayList<Intimacy>();
         PreparedStatement pre = MysqlUtils.getPreparedStatement(sql);
         try {
             ResultSet rs = pre.executeQuery();
             while(rs.next()){
                 inti = new Intimacy();
-                inti.setCallee(this.getNameByTeleNumber(rs.getString("callee")));
-                inti.setTotalTime(rs.getInt("totalTime"));
+                inti.setCallee(this.getNameByTeleNumber(rs.getString("call2")));
+                inti.setTotalTime(rs.getInt("callDuration"));
                 intimacyList.add(inti);
             }
         } catch (SQLException e) {

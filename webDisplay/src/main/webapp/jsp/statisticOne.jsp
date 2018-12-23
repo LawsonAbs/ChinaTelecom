@@ -24,9 +24,14 @@
 <body>
 
 <%
-    String teleNumber = request.getParameter("phoneNumber");
+    String phoneNumber = request.getParameter("phoneNumber");
     String startMonth = request.getParameter("startMonth");
     String endMonth = request.getParameter("endMonth");
+
+    //把注册成功的用户对象保存在session中。这一点是非常重要的
+    request.getSession().setAttribute("phoneNumber",phoneNumber);
+    request.getSession().setAttribute("startMonth",startMonth);
+    request.getSession().setAttribute("endMonth",endMonth);
 %>
 <div id="content" style="height:100%; width:100%;display: table;">
 
@@ -38,11 +43,12 @@
             <ul style="text-align: left; font-size: 20px; ">
                 <%-- 这个userName是需要从后台计算之后传递过来的 --%>
                     <li>userName：<jsp:getProperty name="user" property="userName"/></li></br>
-                <%-- 这个值是从前一个页面传递过来的 --%>
-                    <li>telephone：<%=teleNumber%></li></br>
-                    <li>startMonth：<%=startMonth%></li></br>
-                    <li>endMonth：<%=endMonth%></li></br>
-                    <li>province/city：</li></br>
+
+                    <%-- 这个值是从前一个页面传递过来的 --%>
+                    <li name="phoneNumber">telephone：<%=phoneNumber%></li></br>
+                    <li name="startMonth">startMonth：<%=startMonth%></li></br>
+                    <li name="endMonth">endMonth：<%=endMonth%></li></br>
+                    <li name="province_city">province/city：</li></br>
             </ul>
         </div>
         <div id ="footer" style="width: 100%;height: 20%;position: absolute;bottom: 10px">
@@ -76,7 +82,7 @@
         $.ajax({
             type: 'post',	//传输类型
             async: false,	//同步执行
-            url: '/statistics.display',	//web.xml中注册的Servlet的url-pattern
+            url: '/monthStat.display',	//web.xml中注册的Servlet的url-pattern
             data: {},
             dataType: 'json', //返回数据形式为json
             success: function (result) {
@@ -101,12 +107,12 @@
     var myChart = echarts.init(document.getElementById('topLeft'));
     var option = {
         tooltip: [{show: true}],
-        legend: {data: ['通话详情']},
+        legend: {data: ['月通话详情']},
         //如下两行是不可改变的。即x轴是种类；y轴是值
         xAxis: [{type: 'category'}],
         yAxis: [{type: 'value'}],
         //you can set this type => line ,bar ,pie, scatter
-        series: [{name: '通话详情',type: 'bar'}]
+        series: [{name: '月通话详情',type: 'bar'}]
     };
     //加载数据到option  your defined function
     loadData(option);
@@ -145,12 +151,12 @@
     var myChart = echarts.init(document.getElementById('topRight'));
     var option = {
         tooltip: [{show: true}],
-        legend: [{data: ['亲密度']}],
+        legend: [{data: ['用户亲密度']}],
         //如下两行是不可改变的。即x轴是种类；y轴是值
         xAxis: [{type: 'category'}],
         yAxis: [{type: 'value'}],
         //you can set this type => line ,bar ,pie, scatter
-        series: [{name: '亲密度',type: 'bar'}]
+        series: [{name: '用户亲密度',type: 'bar'}]
     };
     myChart.showLoading();//show Loading...
     loadData(option);//加载数据到option  your defined function

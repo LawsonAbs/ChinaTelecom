@@ -41,9 +41,14 @@
 
             <p style="background-color: darkcyan;width: 90px; font-size: 18px">2.Options</p>
 
-            <form action="servlet/userInfoService" method="post" onsubmit="return sumbit_sure()" >
+            <%--<form action="servlet/userInfoService" method="post" onsubmit="return sumbit_sure()" >--%>
+            <%-- 上面这个 action是将这里的点击触发 servlet/userInfoService去处理，但是需要使用的功能是：
+             01.将这个页面的参数传递到下一个页面
+             02.由下一个页面统一处理
+             --%>
+            <form action="jsp/statisticOne.jsp" method="post" onsubmit="return sumbit_sure()" >
                 <br>
-                Phone&nbsp;Number:<input name="phoneNumber" style="font-size: 15px" type="text" value="18907263863">
+                Phone&nbsp;Number:<input name="phoneNumber" style="font-size: 15px" type="text" value="14218140347">
                 <br><br>
                 Start&nbsp;&nbsp;Month:<input name="startMonth" style="font-size: 15px" type="text" onclick="setmonth(this)">
                 <br><br>

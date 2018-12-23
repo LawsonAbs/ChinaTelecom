@@ -27,7 +27,12 @@ public class IntimacyService extends HttpServlet{
 
         resp.setContentType("text/html;charset=utf8");
         IntimacyDao intimacyDao = new IntimacyDao();
-        List<Intimacy> intimacyList = intimacyDao.query();
+
+        String  phoneNumber= (String)req.getSession().getAttribute("phoneNumber");
+
+        System.out.println("phoneNumber: "+phoneNumber +"------MonthStatService");
+
+        List<Intimacy> intimacyList = intimacyDao.query(phoneNumber);
         Collections.sort(intimacyList);
         System.out.println("intimacyList.size="+intimacyList.size());
         JSONArray jsonArray = JSONArray.fromObject(intimacyList);

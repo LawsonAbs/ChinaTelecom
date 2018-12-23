@@ -23,7 +23,7 @@
 <configuration>
 	<property>     
 		<name>hbase.rootdir</name>     
-		<value>hdfs://192.168.211.3:9000/hbase</value>
+		<value>hdfs://192.168.211.4:9000/hbase</value>
 	</property>
 
 	<property>   
@@ -33,7 +33,7 @@
 
 	<property>   
 		<name>hbase.zookeeper.quorum</name>
-		<value>192.168.211.3:2181</value>
+		<value>192.168.211.4:2181</value>
 	</property>
 
 	<property>   
@@ -41,8 +41,9 @@
 		<value></value>
 	</property>
 
-	<property>
-		<name>hbase.coprocessor.region.classes</name>
-		<value>hbase.CalleeWriteObserver</value>
-	</property>
+    <!-- 暂不实现协处理器 -->
+	<!--<property>-->
+		<!--<name>hbase.coprocessor.region.classes</name>-->
+		<!--<value>hbase.CalleeWriteObserver</value>-->
+	<!--</property>-->
 </configuration>

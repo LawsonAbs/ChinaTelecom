@@ -7,8 +7,9 @@ import java.sql.SQLException;
 
 public class MysqlUtils {
     public static String driver ="com.mysql.jdbc.Driver";
-    public static String url = "jdbc:mysql://localhost:3306" +
-            "/mydatabase?useUnicode=true&characterEncoding=utf-8&useSSL=true";
+
+    //&useSSL=true why not?
+    public static String url = "jdbc:mysql://192.168.211.4:3306/mydatabase?useUnicode=true&characterEncoding=utf-8";
     public static String user ="root";
     public static String password ="root";
 

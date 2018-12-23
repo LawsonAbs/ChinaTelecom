@@ -9,8 +9,8 @@ import org.apache.hadoop.hbase.coprocessor.ObserverContext;
 import org.apache.hadoop.hbase.coprocessor.RegionCoprocessorEnvironment;
 import org.apache.hadoop.hbase.regionserver.wal.WALEdit;
 import org.apache.hadoop.hbase.util.Bytes;
-import utils.HBaseUtil;
-import utils.PropertiesUtil;
+import analyze.other.utils.HBaseUtil;
+import analyze.other.utils.PropertiesUtil;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -18,8 +18,10 @@ import java.text.SimpleDateFormat;
 
 public class CalleeWriteObserver extends BaseRegionObserver{
     @Override
-    public void postPut(ObserverContext<RegionCoprocessorEnvironment> e, Put put, WALEdit edit, Durability durability) throws IOException {
-        super.postPut(e, put, edit, durability);
+    public void postPut(ObserverContext<RegionCoprocessorEnvironment> e, Put put, WALEdit edit, Durability durability)  {
+        //What's the meaning of
+        //super.postPut(e, put, edit, durability);
+
         //1、获取你想要操作的目标表的名称
         String targetTableName = PropertiesUtil.getProperty("hbase.calllog.tablename");
         //2、获取当前成功Put了数据的表（不一定是我们当前业务想要操作的表）
@@ -61,8 +63,12 @@ public class CalleeWriteObserver extends BaseRegionObserver{
             e1.printStackTrace();
         }
 
-        Table table = e.getEnvironment().getTable(TableName.valueOf(targetTableName));
-        table.put(calleePut);
-        table.close();
+        try {
+            Table table = e.getEnvironment().getTable(TableName.valueOf(targetTableName));
+            table.put(calleePut);
+            table.close();
+        } catch (IOException e1) {
+            e1.printStackTrace();
+        }
     }
 }

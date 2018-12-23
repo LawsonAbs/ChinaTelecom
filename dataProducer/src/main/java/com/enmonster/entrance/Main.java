@@ -1,6 +1,7 @@
 package com.enmonster.entrance;
 
 import com.enmonster.data.DataProducer;
+import com.enmonster.data.KafkaUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -11,9 +12,14 @@ import java.util.HashMap;
 public class Main {
     public static ArrayList<String> teleNumber = new ArrayList<String>();
     public static HashMap<String, String> numberToName = new HashMap<String, String>();
-
+    public static DataProducer dataProducer = new DataProducer();
 
     public static void main(String[] args) {
+        dataProducer.initMetadata(teleNumber,numberToName);
+        KafkaUtils.writeCallRecordIntoKafka();
+    }
+
+    public static void one(String args[]){
         if(args[0]==null || args[0]==""){
             return;
         }

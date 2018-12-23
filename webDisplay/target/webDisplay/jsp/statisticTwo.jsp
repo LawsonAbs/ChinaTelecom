@@ -28,7 +28,6 @@
         <p style="text-align: center; font-weight: 400;font-size: 30px">The Statistics of Call</p>
         <div id ="footer" style="width: 100%;height: 20%;position: absolute;bottom: 10px">
             <ul style="">
-                <li><strong>email:</strong>shenliu@ahnu.edu.cn</li>
                 <li><strong>csdn:</strong><a href="https://blog.csdn.net/liu16659" target="_blank">https://blog.csdn.net/liu16659</a></li>
                 <li><strong>github:</strong><a href="https://github.com/LittleLawson" target="_blank">https://github.com/LittleLawson</a></li>
             </ul>
@@ -57,7 +56,7 @@
         $.ajax({
             type: 'post',	//传输类型
             async: false,	//同步执行
-            url: '/statistics.display',	//web.xml中注册的Servlet的url-pattern
+            url: '/monthStat.display',	//web.xml中注册的Servlet的url-pattern
             data: {},
             dataType: 'json', //返回数据形式为json
             success: function (result) {
