@@ -10,4 +10,8 @@
     Module 5: data-present —— Html && Echarts
 
 3. You can read the more specific profile of this project in my csdn blog: https://blog.csdn.net/liu16659/article/details/81133090
-4. If you have any problems about this project, you could add a commet or Email to me. <li><strong>email:</strong> shenliu#ahnu.edu.cn &nbsp;&nbsp; replace # with @ </li>
+If you have any problems about this project, you could add a commet or put an issue.
+
+4.<li><strong>email:</strong> shenliu#ahnu.edu.cn &nbsp;&nbsp; replace # with @ </li>
+<li><strong>csdn:</strong><a href="https://blog.csdn.net/liu16659" target="_blank">https://blog.csdn.net/liu16659</a></li>
+<li><strong>github:</strong><a href="https://github.com/LittleLawson" target="_blank">https://github.com/LittleLawson</a></li>
