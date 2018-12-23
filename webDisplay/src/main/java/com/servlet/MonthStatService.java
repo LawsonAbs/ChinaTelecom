@@ -2,7 +2,9 @@ package com.servlet;
 
 
 import com.bean.MonthStat;
+import com.bean.User;
 import com.dao.MonthStatDao;
+import com.dao.UserInfoDao;
 import net.sf.json.JSONArray;
 
 import javax.servlet.ServletException;
@@ -29,8 +31,6 @@ public class MonthStatService extends HttpServlet{
             throws ServletException, IOException {
         System.out.println("This is a function named doGet");
         req.setCharacterEncoding("utf-8");
-
-
         /*
         01.A.jsp 页面的变量 -> B.jsp  -> 此servlet。整个过程的实现是怎么样的？
         我这里尝试使用Session 实现。直接使用
@@ -44,10 +44,18 @@ public class MonthStatService extends HttpServlet{
         String  phoneNumber= (String)req.getSession().getAttribute("phoneNumber");
         String startMonth = (String)req.getSession().getAttribute("startMonth");
         String endMonth = (String)req.getSession().getAttribute("endMonth");
-
         System.out.println("phoneNumber: "+phoneNumber+" startMonth:"+startMonth+" endMonth:"+endMonth +"------MonthStatService");
 
+        //用于计算每个月的通话记录
         MonthStatDao staDao = new MonthStatDao();
+
+        //用于获取用户的信息
+        UserInfoDao userInfoDao = new UserInfoDao();
+        String name = userInfoDao.getNameByTeleNumber(phoneNumber);
+        User user = new User();
+        user.setUserName(name);
+        req.getSession().setAttribute("user",user);
+        System.out.println("userName: "+user.getUserName());
 
         List<MonthStat> statisticList =  staDao.query(phoneNumber,startMonth,endMonth);
         resp.setContentType("text/html;charset=utf-8");

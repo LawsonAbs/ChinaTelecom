@@ -7,8 +7,6 @@ package com.bean;
 public class User {
     private String userName;
     private String telephone;
-    private String startMonth;
-    private String endMonth;
 
     public User() {
     }
@@ -29,19 +27,4 @@ public class User {
         this.telephone = telephone;
     }
 
-    public String getStartMonth() {
-        return startMonth;
-    }
-
-    public void setStartMonth(String startMonth) {
-        this.startMonth = startMonth;
-    }
-
-    public String getEndMonth() {
-        return endMonth;
-    }
-
-    public void setEndMonth(String endMonth) {
-        this.endMonth = endMonth;
-    }
 }

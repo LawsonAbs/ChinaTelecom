@@ -6,6 +6,12 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    request.setAttribute("decorator", "none");
+    response.setHeader("Cache-Control","no-cache"); //HTTP 1.1
+    response.setHeader("Pragma","no-cache"); //HTTP 1.0
+    response.setDateHeader ("Expires", 0); //prevents caching at the proxy server
+%>
 <html>
 <head>
     <meta charset="utf-8">
@@ -28,10 +34,11 @@
     String startMonth = request.getParameter("startMonth");
     String endMonth = request.getParameter("endMonth");
 
-    //把注册成功的用户对象保存在session中。这一点是非常重要的
+    //把用户对象保存在session中。这一点是非常重要的
     request.getSession().setAttribute("phoneNumber",phoneNumber);
     request.getSession().setAttribute("startMonth",startMonth);
     request.getSession().setAttribute("endMonth",endMonth);
+
 %>
 <div id="content" style="height:100%; width:100%;display: table;">
 

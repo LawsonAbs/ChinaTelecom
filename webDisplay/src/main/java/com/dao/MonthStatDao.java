@@ -15,11 +15,10 @@ import java.util.List;
 
 public class MonthStatDao {
     public List<MonthStat> query(String phoneNumber,String startMonth,String endMonth) {
-
         String thisMonth = null;
         String firstMonth = null;
         //if startMonth is null,use the first month in this year
-       if (startMonth == null) {
+       if (startMonth == null | startMonth=="") {
         Calendar cale = null;
         cale = Calendar.getInstance();
         int year = cale.get(Calendar.YEAR);
@@ -30,11 +29,11 @@ public class MonthStatDao {
        }
 
          //if endMonth is null,use current month
-        if (endMonth == null) {
+        if (endMonth == null | endMonth=="") {
             Date today = new Date();
             //get the format date => year_month
-            SimpleDateFormat sdf = new SimpleDateFormat("yyyymm");
-            thisMonth = sdf.format(today);
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyyMM");
+            endMonth = sdf.format(today);
         } else {
             endMonth = StringUtils.getYearMonth(endMonth);
         }

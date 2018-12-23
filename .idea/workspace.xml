@@ -7,188 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46cd39f5-e146-4ffc-b04c-b52312230f91" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_gwt_gwt_user_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_stumbleupon_async_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_9_9_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_43_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_sources_1_0_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mx4j_mx4j_3_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_iharder_base64_2_3_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_9_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_opentsdb_opentsdb_2_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_opentsdb_opentsdb_gwt_theme_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_jexl_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_6_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_6_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_6_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_6_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_6_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_6_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_51.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hbase_asynchbase_1_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jgrapht_jgrapht_core_0_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20090211.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_11_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/entity/Intimacy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/entity/MonthStat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/entity/Statistics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/teleDuration/HBMyMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/teleDuration/HBMyReducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/teleDuration/HBStatJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/teleDuration/note" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/teleDuration/statistics.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/teleIntimacy/HBIntimacyJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/teleIntimacy/HBMyMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/teleIntimacy/HBMyReducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/teleIntimacy/intimacy.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/teleIntimacy/note" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/teleMonthDura/HBMonStatJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/teleMonthDura/HBMyMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/teleMonthDura/HBMyReducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/teleMonthDura/Note" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/teleMonthDura/monthDura.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/fromHBToMys/util/HBaseUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/kv/base/BaseDimension.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/kv/base/BaseValue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ct_consumer/src/main/java/entrance/TestCtConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/utils/SessionUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/utils/StringUtils.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_12_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_7_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/java/kv/base/BaseDimension.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/java/kv/base/BaseValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/resources/core-site.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/resources/hbase-site.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/resources/hdfs-site.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/resources/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/converter/DimensionConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/converter/DimensionConverterImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/core-site.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/hbase-site.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/hdfs-site.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/kv/base/BaseDimension.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/kv/base/BaseValue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/kv/key/ComDimension.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/kv/key/ContactDimension.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/kv/key/DateDimension.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/kv/value/CountDurationValue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/mapper/CountDurationMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/outputformat/MysqlOutputFormat$MysqlRecordWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/outputformat/MysqlOutputFormat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/reducer/CountDurationReducer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/runner/CountDurationRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/utils/JDBCInstance.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/utils/JDBCUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ct_analysis/target/classes/utils/LRUCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataProducer/target/classes/com/enmonster/kafka/KafkaUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataProducer/target/classes/com/enmonster/other/DataProducer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/bean/Statistics.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/dao/StatisticsDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/servlet/StatisticsService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/bean/Statistics.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/dao/StatisticsDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/servlet/StatisticsService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_consumer/target/classes/hbase/CalleeWriteObserver.class" afterPath="$PROJECT_DIR$/ct_consumer/target/classes/hbase/CalleeWriteObserver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_consumer/target/classes/hbase/HBaseDAO.class" afterPath="$PROJECT_DIR$/ct_consumer/target/classes/hbase/HBaseDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_consumer/target/classes/kafka/Consumer.class" afterPath="$PROJECT_DIR$/ct_consumer/target/classes/kafka/Consumer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_consumer/target/classes/kafka/HBaseConsumer.class" afterPath="$PROJECT_DIR$/ct_consumer/target/classes/kafka/HBaseConsumer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_consumer/target/classes/utils/HBaseUtil.class" afterPath="$PROJECT_DIR$/ct_consumer/target/classes/utils/HBaseUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_consumer/target/classes/utils/PropertiesUtil.class" afterPath="$PROJECT_DIR$/ct_consumer/target/classes/utils/PropertiesUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataProducer/target/classes/com/enmonster/entrance/Main.class" afterPath="$PROJECT_DIR$/dataProducer/target/classes/com/enmonster/entrance/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/bean/Bar.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/bean/Bar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/bean/Intimacy.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/bean/Intimacy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/bean/User.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/bean/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/dao/BarDao.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/dao/BarDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/dao/IntimacyDao.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/dao/IntimacyDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/dao/UserInfoDao.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/dao/UserInfoDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/servlet/BarService.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/servlet/BarService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/servlet/IntimacyService.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/servlet/IntimacyService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/servlet/UserInfoService.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/servlet/UserInfoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/classes/com/utils/MysqlUtils.class" afterPath="$PROJECT_DIR$/webDisplay/target/classes/com/utils/MysqlUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/bean/Bar.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/bean/Bar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/bean/Intimacy.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/bean/Intimacy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/bean/User.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/bean/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/dao/BarDao.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/dao/BarDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/dao/IntimacyDao.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/dao/IntimacyDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/dao/UserInfoDao.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/dao/UserInfoDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/servlet/BarService.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/servlet/BarService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/servlet/IntimacyService.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/servlet/IntimacyService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/servlet/UserInfoService.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/servlet/UserInfoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/utils/MysqlUtils.class" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/classes/com/utils/MysqlUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/webDisplay_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/webDisplay_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/out.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-dir/hadoop-1663825564577671982" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-dir/hadoop-4582749559357213585" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-dir/hadoop-6655495685633737617" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-dir/hadoop-9164314255224565709" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_analysis/ct_analysis.iml" afterPath="$PROJECT_DIR$/ct_analysis/ct_analysis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_analysis/pom.xml" afterPath="$PROJECT_DIR$/ct_analysis/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_consumer/src/main/java/hbase/CalleeWriteObserver.java" afterPath="$PROJECT_DIR$/ct_consumer/src/main/java/hbase/CalleeWriteObserver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_consumer/src/main/java/hbase/HBaseDAO.java" afterPath="$PROJECT_DIR$/ct_consumer/src/main/java/hbase/HBaseDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_consumer/src/main/java/kafka/Consumer.java" afterPath="$PROJECT_DIR$/ct_consumer/src/main/java/kafka/Consumer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_consumer/src/main/java/kafka/HBaseConsumer.java" afterPath="$PROJECT_DIR$/ct_consumer/src/main/java/kafka/HBaseConsumer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_consumer/src/main/resources/hbase-site.xml" afterPath="$PROJECT_DIR$/ct_consumer/src/main/resources/hbase-site.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_consumer/src/main/resources/hbase_consumer.properties" afterPath="$PROJECT_DIR$/ct_consumer/src/main/resources/hbase_consumer.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_consumer/target/classes/hbase-site.xml" afterPath="$PROJECT_DIR$/ct_consumer/target/classes/hbase-site.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ct_consumer/target/classes/hbase_consumer.properties" afterPath="$PROJECT_DIR$/ct_consumer/target/classes/hbase_consumer.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataProducer/src/main/java/com/enmonster/entrance/Main.java" afterPath="$PROJECT_DIR$/dataProducer/src/main/java/com/enmonster/entrance/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/pom.xml" afterPath="$PROJECT_DIR$/webDisplay/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/IntimacyDao.java" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/IntimacyDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/data.sql" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/data.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/bean/User.java" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/bean/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/MonthStatDao.java" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/MonthStatDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/IntimacyService.java" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/IntimacyService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/MonthStatService.java" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/MonthStatService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/utils/MysqlUtils.java" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/utils/MysqlUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/webDisplay/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/callStatistic.jsp" afterPath="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/callStatistic.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticOne.jsp" afterPath="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticOne.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticTwo.jsp" afterPath="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticTwo.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/jsp/callStatistic.jsp" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/jsp/callStatistic.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/jsp/statisticOne.jsp" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/jsp/statisticOne.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/target/webDisplay/jsp/statisticTwo.jsp" afterPath="$PROJECT_DIR$/webDisplay/target/webDisplay/jsp/statisticTwo.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDisplay/webDisplay.iml" afterPath="$PROJECT_DIR$/webDisplay/webDisplay.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_7_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_6_5.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_7_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_6_5.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/java/converter/DimensionConverter.java" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/converter/DimensionConverter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/java/converter/DimensionConverterImpl.java" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/converter/DimensionConverterImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/java/kv/key/ComDimension.java" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/kv/key/ComDimension.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/java/kv/key/ContactDimension.java" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/kv/key/ContactDimension.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/java/kv/key/DateDimension.java" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/kv/key/DateDimension.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/java/kv/value/CountDurationValue.java" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/kv/value/CountDurationValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/java/mapper/CountDurationMapper.java" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/mapper/CountDurationMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/java/outputformat/MysqlOutputFormat.java" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/outputformat/MysqlOutputFormat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/java/reducer/CountDurationReducer.java" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/reducer/CountDurationReducer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/java/runner/CountDurationRunner.java" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/runner/CountDurationRunner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/java/utils/JDBCInstance.java" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/utils/JDBCInstance.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/java/utils/JDBCUtil.java" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/utils/JDBCUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ct_analysis/src/main/java/utils/LRUCache.java" afterPath="$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/utils/LRUCache.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ct_consumer/src/main/java/utils/HBaseUtil.java" afterPath="$PROJECT_DIR$/ct_consumer/src/main/java/analyze/other/utils/HBaseUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ct_consumer/src/main/java/utils/PropertiesUtil.java" afterPath="$PROJECT_DIR$/ct_consumer/src/main/java/analyze/other/utils/PropertiesUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataProducer/src/main/java/com/enmonster/kafka/KafkaUtils.java" afterPath="$PROJECT_DIR$/dataProducer/src/main/java/com/enmonster/data/KafkaUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/bean/Statistics.java" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/bean/MonthStat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/StatisticsDao.java" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/MonthStatDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/StatisticsService.java" afterPath="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/MonthStatService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/dataProducer/target/" />
@@ -216,24 +46,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IntimacyService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/IntimacyService.java">
+      <file leaf-file-name="statisticOne.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticOne.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="-506">
+              <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MonthStatDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/dao/MonthStatDao.java">
+      <file leaf-file-name="callStatistic.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/callStatistic.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding>
-                <element signature="e#1596#1607#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntimacyService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/IntimacyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -241,11 +79,41 @@
       <file leaf-file-name="MonthStatService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/MonthStatService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="250">
+              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="method#doGet#0;class#MonthStatService#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpSession.java" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpSession.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="304" column="16" lean-forward="false" selection-start-line="304" selection-start-column="16" selection-end-line="304" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpServletRequest.java" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpServletRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="521" column="23" lean-forward="false" selection-start-line="521" selection-start-column="23" selection-end-line="521" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -282,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ct_consumer/src/main/resources/hbase_consumer.properties" />
         <option value="$PROJECT_DIR$/ct_consumer/src/main/java/entrance/Main.java" />
         <option value="$PROJECT_DIR$/ct_consumer/src/main/java/kafka/Consumer.java" />
         <option value="$PROJECT_DIR$/ct_consumer/src/main/java/utils/PropertiesUtil.java" />
@@ -322,17 +189,18 @@
         <option value="$PROJECT_DIR$/webDisplay/pom.xml" />
         <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/utils/MysqlUtils.java" />
         <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/StatisticsDao.java" />
-        <option value="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/callStatistic.jsp" />
-        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java" />
-        <option value="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticOne.jsp" />
         <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/utils/stringUtils.java" />
         <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/Main.java" />
         <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/utils/StringUtils.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/utils/SessionUtils.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/IntimacyDao.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/bean/User.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/callStatistic.jsp" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/IntimacyService.java" />
         <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/MonthStatDao.java" />
         <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/MonthStatService.java" />
-        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/utils/SessionUtils.java" />
-        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/IntimacyService.java" />
-        <option value="$PROJECT_DIR$/webDisplay/src/main/java/com/dao/IntimacyDao.java" />
+        <option value="$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticOne.jsp" />
       </list>
     </option>
   </component>
@@ -407,51 +275,6 @@
             <path>
               <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
-              <item name="ct_analysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
-              <item name="ct_analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
-              <item name="ct_analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
-              <item name="ct_analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
-              <item name="ct_analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="analyze" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
-              <item name="ct_analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="analyze" type="462c0819:PsiDirectoryNode" />
-              <item name="fromHBToMys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
               <item name="webDisplay" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -492,7 +315,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
@@ -503,6 +326,33 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
+              <item name="webDisplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
+              <item name="webDisplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChinaTelecom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChinaTelecom" type="462c0819:PsiDirectoryNode" />
+              <item name="webDisplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -893,15 +743,16 @@
       <workItem from="1545051481397" duration="23146000" />
       <workItem from="1545134616132" duration="7507000" />
       <workItem from="1545389051784" duration="2020000" />
-      <workItem from="1545441525450" duration="14541000" />
+      <workItem from="1545441525450" duration="18093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181872000" />
+    <option name="totallyTimeSpent" value="185424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="-8" width="1870" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37539104" sideWeight="0.50220996" order="7" side_tool="true" content_ui="tabs" />
@@ -913,7 +764,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10033076" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2857143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44108447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33576643" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -921,10 +772,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41397288" sideWeight="0.49779007" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26485923" sideWeight="0.49779007" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2160221" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17955801" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -982,19 +833,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java</url>
-          <line>35</line>
+          <line>31</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java</url>
-          <line>41</line>
+          <line>35</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
@@ -1023,13 +868,13 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/webDisplay/src/main/java/com/dao/UserInfoDao.java</url>
-          <line>12</line>
+          <url>file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/MonthStatService.java</url>
+          <line>57</line>
           <properties />
-          <option name="timeStamp" value="32" />
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="38" />
+      <option name="time" value="42" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1038,38 +883,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/utils/JDBCUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ct_analysis/src/main/java/analyze/other/utils/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ct_analysis/src/main/resources/core-site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ct_analysis/src/main/resources/hbase-site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-565">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ct_analysis/src/main/resources/hdfs-site.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1244,14 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticTwo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/utils/MysqlUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1305,7 +1110,7 @@
         <state relative-caret-position="-44">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1350,45 +1155,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="36" column="59" lean-forward="false" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/dao/UserInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticOne.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/callStatistic.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="48" column="37" lean-forward="false" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="2131" column="19" lean-forward="false" selection-start-line="2131" selection-start-column="19" selection-end-line="2131" selection-end-column="19" />
           <folding>
-            <element signature="e#82971#82972#0" expanded="true" />
-            <element signature="e#83020#83021#0" expanded="true" />
+            <element signature="e#82971#82972#0" expanded="false" />
+            <element signature="e#83020#83021#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1437,40 +1210,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/dao/MonthStatDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#1596#1607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/MonthStatService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="method#doGet#0;class#MonthStatService#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/dao/IntimacyDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="-154">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding>
             <element signature="e#655#665#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-dir/hadoop-1663825564577671982">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticTwo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="134" column="32" lean-forward="true" selection-start-line="134" selection-start-column="32" selection-end-line="134" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/dao/UserInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/dao/MonthStatDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="34" column="63" lean-forward="false" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
+          <folding>
+            <element signature="e#1626#1637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/IntimacyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="440">
+          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpServletRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="521" column="23" lean-forward="false" selection-start-line="521" selection-start-column="23" selection-end-line="521" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="304" column="16" lean-forward="false" selection-start-line="304" selection-start-column="16" selection-end-line="304" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/java/com/servlet/MonthStatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="method#doGet#0;class#MonthStatService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/statisticOne.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webDisplay/src/main/webapp/jsp/callStatistic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
           <folding />
         </state>
       </provider>
