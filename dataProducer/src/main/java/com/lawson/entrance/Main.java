@@ -1,7 +1,7 @@
-package com.enmonster.entrance;
+package com.lawson.entrance;
 
-import com.enmonster.data.DataProducer;
-import com.enmonster.data.KafkaUtils;
+import com.lawson.data.DataProducer;
+import com.lawson.data.KafkaUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
